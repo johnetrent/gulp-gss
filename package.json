@@ -1,0 +1,33 @@
+{
+  "name": "gulp-gss",
+  "version": "0.0.1",
+  "description": "Compiles .gss files into AST JSON for running with the GSS engine",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnetrent/gulp-gss.git"
+  },
+  "keywords": [
+    "gulp",
+    "gss",
+    "compiler"
+  ],
+  "author": {
+    "name": "John Trent",
+    "email": "john.e.trent@gmail.com"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/johnetrent/gulp-gss/issues"
+  },
+  "homepage": "https://github.com/johnetrent/gulp-gss",
+  "dependencies": {
+    "gss-compiler": "git://github.com/the-gss/compiler.git",
+    "through2": "^0.4.1",
+    "gulp-util": "^2.2.14"
+  }
+}
